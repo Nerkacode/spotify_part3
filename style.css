@@ -1,0 +1,131 @@
+.floateris {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+nav {
+  transition: all 0.9s ease;
+  position: fixed !important;
+  width: 100%;
+  z-index: 100;
+}
+
+a {
+  color: white;
+}
+
+.top_container {
+  height: auto;
+}
+
+/* script */
+.nav_background {
+  background-color: #00000059 !important;
+}
+
+.main_img {
+  height: 640px;
+  background-image: url(https://www.scdn.co/i/home/segmented-home/premium_dancer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #60b3f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_img-content {
+  width: 90%;
+  color: #fff;
+}
+
+button {
+  background-color: #1DB954;
+  border-radius: 15px;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.disclaimer {
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+  color:#fff;
+  font-size: 12px;
+}
+
+h1 {
+  padding: 20px 0 20px 0;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+.card {
+  border: none;
+}
+
+.customCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.boxas {
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.125);
+  transition: all 0.9s ease;
+  animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+  animation-fill-mode: both;
+  animation-duration: 700ms;
+  margin: 10px;
+}
+
+.boxas:hover {
+  animation-name: slideUp;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.325);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1rem);
+  }
+}
+
+.boxas ul {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.boxas .btn {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid green;
+  color: green;
+  border-radius: 20px;
+}
+
+.boxas .btn:hover {
+  color: white;
+  background-color: green;
+}
+
+h2 span {
+  font-size: 50%;
+}
